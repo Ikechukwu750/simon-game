@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.2rem;
+  margin:  1rem 0;
+  color: #FEF2BF;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px
+}
+
+.btn {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  border-radius: 15%;
+  margin-bottom: 1rem;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #aa0000;
+  border: 7px solid #fff;
+}
+
+.green {
+  background-color: #008000;
+  border: 7px solid #fff;
+}
+
+.blue {
+  background-color: #1010ff;
+  border: 7px solid #fff;
+}
+
+.yellow {
+  background-color: #cccc00;
+  border: 7px solid #fff;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#start {
+  padding: 0.7rem 2.5rem;
+  background-color: #c8531e;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+}
+
+footer {
+  margin-top: 1rem;
+  font-family: "jost", sans-serif;
+  color: white;
+}
+
+footer span {
+  color: red;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rules {
+  color: darkorange;
+}
+
+.game-rules {
+  color: #ddd;
+  font-family: "Jost", sans-serif;
+  padding: 0.7rem;
+  max-width: 400px;
+}
+
+.game-rules a {
+  text-decoration: none;
+  background-color: #008000;
+  color: #ddd;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+}
+
+#green {
+  color: #00aa00;
+}
+
+#yellow {
+  color: #cccc00;
+}
